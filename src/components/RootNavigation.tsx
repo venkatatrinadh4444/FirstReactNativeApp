@@ -4,7 +4,9 @@ import Profile from '../screens/Profile';
 
 export type StackPramList = {
     Home: undefined,
-    Profile: undefined
+    Profile: {
+        userId:number
+    }
 }
 
 

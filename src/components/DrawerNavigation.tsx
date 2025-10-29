@@ -11,6 +11,8 @@ export type DrawerParamList = {
 }
 
 const Drawer = createDrawerNavigator<DrawerParamList>()
+
+
 export default function DrawerRootNavigation() {
     return (
         <Drawer.Navigator>

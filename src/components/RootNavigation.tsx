@@ -2,7 +2,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import Home from '../screens/Home';
 import Profile from '../screens/Profile';
 
-export type StackPramList = {
+export type StackParamList = {
     Home: undefined,
     Profile: {
         userId:number
@@ -10,7 +10,8 @@ export type StackPramList = {
 }
 
 
-const Stack = createStackNavigator<StackPramList>();
+
+const Stack = createStackNavigator<StackParamList>();
 
 
 export default function RootNavigation() {
